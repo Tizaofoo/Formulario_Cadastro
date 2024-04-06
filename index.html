@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulário do Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="Images/undraw_engineering_team_a7n2.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Formulário do Cadastro</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="address">Endereço:</label>
+                        <input id="address" type="text" name="address" placeholder="Digite seu endereço" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="zip code">CEP:</label>
+                        <input id="zip code" type="zip code" name="zip code" placeholder="xxxxx-xxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="city">Cidade:</label>
+                        <input id="city" type="text" name="city" placeholder="Digite a sua cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="state">Estado:</label>
+                        <input id="state" type="state" name="state" placeholder="Digite seu estado" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="date">Data de Nascimento:</label>
+                        <input id="date" type="date" name="date" placeholder="xx/xx/xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CPF:</label>
+                        <input id="number" type="number" name="number" placeholder="XXX.XXX.XXX-XX" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">RG:</label>
+                        <input id="number" type="number" name="number" placeholder="XXXXXXXX-X" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone:</label>
+                        <input id="number" type="number" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                <div class="cadastrar-button">
+                    <button><a href="#">Cadastrar</a> </button>
+                </div>
+            </form>
+        </div>
+        <script src="./Js-Query/jquery.mask.min.js"></script>
+        <script src="./Js-Query/jquery.validate.min.js"></script>
+        <script src="./Js-Query/messages_pt_BR.min.js"></script>
+        <script src="./main.js"></script>
+    </div>
+</body>
+
+</html>
